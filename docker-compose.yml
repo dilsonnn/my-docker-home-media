@@ -1,4 +1,5 @@
 version: '3.4'
+# This is required so that you can configure configure tinypc-server instead of the ip address when configuring the applications.
 x-extra-hosts: &extra_hosts
   - "tinypc-server:192.168.1.34"
 services:
