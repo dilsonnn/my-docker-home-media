@@ -98,11 +98,6 @@ services:
       - ${DATA_PATH}/nas/Movies:/movies
     ports:
      - 32400:32400
-     # - 1900:1900
-     # - 3005:3005
-     # - 5353:5353
-     # - 8324:8324
-     # - 32469:32469
     restart: unless-stopped
   filebrowser:
     image: filebrowser/filebrowser
